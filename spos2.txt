@@ -1,0 +1,61 @@
+using System;
+usingSystem.Collections.Generic;
+usingSystem.Linq;
+usingSystem.Text;
+usingSystem.Threading.Tasks;
+
+namespace maths3
+{
+publicstaticclassfunctions
+    {
+publicstaticintAdd(int n1, int n2)
+        {
+return n1 + n2;
+
+        }
+publicstaticintsub(int n1, int n2)
+        {
+return n1 - n2;
+
+        }
+publicstaticintmul(int n1, int n2)
+        {
+return n1 * n2;
+
+        }
+publicstaticintdiv(int n1, int n2)
+        {
+return n1 / n2;
+
+        }
+    }
+}
+
+
+
+using System;
+usingSystem.Collections.Generic;
+usingSystem.Linq;
+usingSystem.Text;
+usingSystem.Threading.Tasks;
+using maths3;
+
+namespace maths3App
+{
+classProgram
+    {
+staticvoid Main(string[] args)
+        {
+
+Console.WriteLine(functions.Add(4, 10));
+
+
+Console.WriteLine(functions.sub(4, 2));
+
+Console.WriteLine(functions.mul(4, 10));
+
+Console.WriteLine(functions.div(4, 2));
+Console.ReadKey();
+        }
+    }
+}
