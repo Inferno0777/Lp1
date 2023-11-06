@@ -1,29 +1,29 @@
 using System;
-usingSystem.Collections.Generic;
-usingSystem.Linq;
-usingSystem.Text;
-usingSystem.Threading.Tasks;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace maths3
 {
-publicstaticclassfunctions
+public static class functions
     {
-publicstaticintAdd(int n1, int n2)
+public static int Add(int n1, int n2)
         {
 return n1 + n2;
 
         }
-publicstaticintsub(int n1, int n2)
+public static int sub(int n1, int n2)
         {
 return n1 - n2;
 
         }
-publicstaticintmul(int n1, int n2)
+public static int mul(int n1, int n2)
         {
 return n1 * n2;
 
         }
-publicstaticintdiv(int n1, int n2)
+public static int div(int n1, int n2)
         {
 return n1 / n2;
 
@@ -34,17 +34,17 @@ return n1 / n2;
 
 
 using System;
-usingSystem.Collections.Generic;
-usingSystem.Linq;
-usingSystem.Text;
-usingSystem.Threading.Tasks;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using maths3;
 
 namespace maths3App
 {
-classProgram
+class Program
     {
-staticvoid Main(string[] args)
+static void Main(string[] args)
         {
 
 Console.WriteLine(functions.Add(4, 10));
